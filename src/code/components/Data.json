@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Susi Quattro",
+        "description": "Lorem ipsum dolor sit amet consectetur. Quis vitae ut quam urna ut turpis. Nunc imperdiet augue dis suspendisse.",
+        "image": "path/to/susi-quattro.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Stella Starlight",
+        "description": "Lorem ipsum dolor sit amet consectetur. Quis vitae ut quam urna ut turpis. Nunc imperdiet augue dis suspendisse.",
+        "image": "path/to/stella-starlight.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Paula Paulson",
+        "description": "Lorem ipsum dolor sit amet consectetur. Quis vitae ut quam urna ut turpis. Nunc imperdiet augue dis suspendisse.",
+        "image": "path/to/paula-paulson.jpg"
+    }
+]
