@@ -4,7 +4,7 @@ import './Card.css';
 const Card = () => {
     return (
         <div className="card">
-            <img src="5bWIDemo\src\code\components\derKing.png" alt="Person Name" className="card-image" />
+            <img src="https://example.com/image1.jpg" alt="Person Name" className="card-image" />
             <div className="card-content">
                 <h2 className="card-name">Susi Quattro</h2>
                 <p className="card-description">
