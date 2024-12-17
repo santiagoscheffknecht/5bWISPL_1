@@ -1,22 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import cardData from '../Data.json';
 import Card from '../card/Card';
-import './CardList.css';
 
-
-export const CardList = () => {
-    const [cards, setCards] = useState([]);
-
-    useEffect(() => {
-        fetch('../data.json')
-            .then((response) => response.json())
-            .then((data) => setCards(data));
-    }, []);
-
+const CardList = () => {
     return (
         <div className="card-list">
-            {cards.map((card) => (
+            {cardData.map((card, index) => (
                 <Card
-                    key={card.id}
+                    key={index}
                     name={card.name}
                     description={card.description}
                     image={card.image}
@@ -24,4 +15,6 @@ export const CardList = () => {
             ))}
         </div>
     );
-}
+};
+
+export default CardList;
