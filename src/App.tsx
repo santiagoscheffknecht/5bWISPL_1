@@ -55,13 +55,13 @@ function App() {
       <h2>Neue Hausaufgabe hinzufügen</h2>
       <input
         type="text"
-        placeholder="Fach"
+        placeholder="Subject"
         value={newSubject}
         onChange={(e) => setNewSubject(e.target.value)}
       />
       <input
         type="text"
-        placeholder="Aufgabe"
+        placeholder="Task"
         value={newTask}
         onChange={(e) => setNewTask(e.target.value)}
       />
