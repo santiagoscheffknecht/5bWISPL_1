@@ -1,13 +1,9 @@
-import CardList from "./code/components/cardList/CardList"
-
 function App() {
 
 
   return (
     <>
       <h1>Super</h1>
-
-      <CardList />
     </>
   )
 }
